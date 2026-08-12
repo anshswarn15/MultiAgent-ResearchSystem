@@ -60,7 +60,7 @@ An AI-powered research assistant built with **LangChain, Groq, and Tavily** that
              └──────────────────────┘
 
 ```
-```
+
 
 ### Agent Responsibilities
 
