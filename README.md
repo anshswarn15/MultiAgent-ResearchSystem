@@ -1,4 +1,4 @@
-```
+```markdown
 # 🔬 LangChain Multi-Agent Research System
 An AI-powered research assistant built with **LangChain, Groq, and Tavily** that automates the complete research workflow — from web search and content extraction to report generation and AI-based evaluation.
 <p align="center">
