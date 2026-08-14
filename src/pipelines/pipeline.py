@@ -75,3 +75,26 @@ def run_research_pipeline(topic : str) -> dict:
     print("\n critic report \n", state['feedback'])
 
     return state
+
+# """
+# State ka diagram
+# =========================
+
+# Run #1: topic = "AI"
+# -------------------------
+# 1. Search Agent --> search_results = [links + brief descriptions]
+# 2. Reader Agent --> scraped_content = [detailed text from top link]
+# 3. Writer Chain --> report = [draft paper on AI]
+# 4. Critic Chain --> feedback = [review of the AI paper]
+
+
+# Run #2: topic = "Quantum Computing"
+# -----------------------------------
+# 1. Search Agent --> search_results = [new links on QC]
+# 2. Reader Agent --> scraped_content = [new scraped text on QC]
+# 3. Writer Chain --> report = [new draft paper on QC]
+# 4. Critic Chain --> feedback = [review of QC paper]
+
+# Har baar new topic = new run → always fresh state
+
+# """
